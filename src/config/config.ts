@@ -6,27 +6,27 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Siya Anand',
+    title: 'Student | Economics',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'am an economics undergraduate specialising in data science, with academic interests in political economy, international law, and institutional analysis. My work focuses on understanding how policy decisions, governance structures, and macroeconomic forces shape markets, particularly in emerging economies. I engage in research, data-driven analysis, and policy writing that bridges theory with real-world decision-making.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Christ University\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'I am pursuing a BSc in Economics with Data Science (Honours) at Christ University, Bengaluru, where my coursework integrates economic theory with quantitative and computational methods. Alongside academics, I have engaged in applied research, data analysis projects, and financial modelling focused on policy and macroeconomic questions.\n' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      'Excel Projects.',
+    tagline: 'G.O.A.T.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
-    description: "Portfolio website showcasing your education, research, projects, and experience.",
+    title: 'Siya Anand – Student',
+    description: "Portfolio website to be added soon.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student', 'Internation law and Policy', 'International Law', 'Investment Banking'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -43,7 +43,7 @@ const siteConfig = {
   // Add more entries here as you add more static HTML blog files under public/static_page/
   blogs: [
     {
-      title: 'Your Blog Title',
+      title: 'State Stalement',
       url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
     },
   ],
@@ -51,31 +51,29 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ (Deemed-To-Be) University',
+      degree: 'Bsc Economics with Data Science',
+      year: '2025-2029',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'Christ Academy',
+      degree: 'Schooling',
+      year: '2023',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
     },
   ],
 
 // ✅ Unified MOOC + Certifications Section
   certifications: [
     {
-      title: 'Your Certificate or Specialization',
+      title: 'UNCTIRL on international Trade Laws',
       specialization: true,
       file: getAsset('images/education/Certifications/download.svg'),
       certificates: [
         { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
-      ],
+              ],
     },
     {
       title: 'Another Certificate',
@@ -88,18 +86,18 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Mentor',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
+      place: 'IIM Ranchi',
+      time: (2025 – Present)',
+      desp: ['Mentoring Young minds for a brigher tomorrow'],
     },
     {
-      title: 'Previous Role',
+      title: 'President',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
+      place: 'Model UN Society',
+      time: '(2024-2025)',
+      desp: ['5 training sessions resulying in 20+awards'],
     },
   ],
 
@@ -107,18 +105,12 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'US and the increasing defense budget',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
+      description: 'Excel analysis on how the military and defense expense despite increasing, decreases as a ratio in the overall budget',
       Githublink: 'https://github.com/your-username/your-project',
     },
-    {
-      title: 'Project Title 2',
-      cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Another project summary...',
-      Githublink: 'https://github.com/your-username/another-project',
-    },
-  ],
+      ],
 
 
   research: [
@@ -148,8 +140,8 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
+    email: 'siyaanand@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/Siya-linkedin/',
     github: 'https://github.com/your-username',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
